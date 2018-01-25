@@ -1,0 +1,37 @@
+Navigating to the folder
+You can right click in the folder and click "Git Bash Here"
+
+Alternatively, you can navigate to the folder manually.
+
+cd ../  
+moves you up one file space
+
+D:
+moves you to D drive.
+
+dir
+lists directory
+
+ls
+also lists directory
+
+cd foldername
+navigates you into foldername
+
+
+cd fold + tab
+tab will autocomplete foldernames if there are no folders that it can be confused with
+
+pushing
+
+git add .
+git commit -m "add your message about the commit here"
+git push origin master
+(you can replace master with whatever branch you want to be on)
+
+
+pulling
+git pull 
+or
+git pull origin master
+(again you can replace master with the branch)
